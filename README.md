@@ -1,59 +1,57 @@
-# SMART-ADMIN
 
+# 🤖 Telegram Bot with Auto-Response and Message Management
 
-# 🤖 Telegram Bot con Auto-Respuesta y Gestión de Mensajes
+This project is a Telegram bot designed to automate message management in groups or individual chats. It comes with special features that make it useful for administrators and moderators.
 
-Este proyecto es un bot de Telegram diseñado para automatizar la gestión de mensajes en grupos o chats individuales. Cuenta con características especiales que lo hacen útil para administradores y moderadores.
+## 🚀 Key Features
 
-## 🚀 Características principales
-
-| Característica        | Descripción                                                                                                                                 |
+| Feature               | Description                                                                                                                                 |
 |-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
-| 📩 **Envío de mensajes** | El bot puede enviar mensajes a usuarios o grupos y puede eliminarlos automáticamente tras un período de tiempo definido.                   |
-| 🔄 **Reenvío de mensajes** | Permite reenviar mensajes desde un chat a otro, manteniendo un registro de cada operación.                                                 |
-| 🗑️ **Eliminación automática** | Elimina los mensajes enviados automáticamente después de un tiempo configurable.                                                        |
-| 📜 **Registro de mensajes** | Mantiene un registro detallado de todos los mensajes enviados y reenviados, almacenados en archivos JSON para referencia futura.         |
-| 👮‍♂️ **Comandos del administrador** | Los administradores pueden enviar mensajes a usuarios específicos, reenviar mensajes y ver una lista de usuarios que han interactuado con el bot. |
+| 📩 **Message Sending**  | The bot can send messages to users or groups and delete them automatically after a defined period.                                          |
+| 🔄 **Message Forwarding** | Allows forwarding messages from one chat to another, while keeping a log of each operation.                                                |
+| 🗑️ **Auto Deletion**     | Automatically deletes sent messages after a configurable time.                                                                             |
+| 📜 **Message Logging**   | Keeps a detailed log of all sent and forwarded messages, stored in JSON files for future reference.                                        |
+| 👮‍♂️ **Admin Commands**   | Administrators can send messages to specific users, forward messages, and see a list of users who have interacted with the bot.             |
 
-## 🛠️ Comandos del bot
+## 🛠️ Bot Commands
 
-- `/start`: Comienza la interacción con el bot y registra al usuario en el sistema.
-- `/chat <user_id> <mensaje>`: Envía un mensaje directo a un usuario específico.
-- `/resend <user_id> <from_chat_id> <message_id>`: Reenvía un mensaje desde un chat de origen a un usuario.
-- `/list`: Muestra una lista de usuarios que han enviado el comando `/start`.
+- `/start`: Start interacting with the bot and register the user in the system.
+- `/chat <user_id> <message>`: Send a direct message to a specific user.
+- `/resend <user_id> <from_chat_id> <message_id>`: Forward a message from a source chat to a user.
+- `/list`: Show a list of users who have sent the `/start` command.
 
-## 📝 Requisitos
+## 📝 Requirements
 
 - Python 3.x
-- Bibliotecas:
+- Libraries:
   - `requests`
   - `json`
   - `threading`
 
-## ⚙️ Configuración
+## ⚙️ Setup
 
-1. Clona el repositorio:
+1. Clone the repository:
    ```bash
-   git clone https://github.com/tuusuario/telegram-bot-mensajes.git
+   git clone https://github.com/youruser/telegram-message-bot.git
    ```
 
-2. Instala las dependencias:
+2. Install the dependencies:
    ```bash
    pip install requests
    ```
 
-3. Configura tu token de Telegram y los IDs de administrador en el archivo principal del bot.
+3. Configure your Telegram token and admin IDs in the bot's main file.
 
-4. ¡Ejecuta el bot!
+4. Run the bot!
    ```bash
    python bot.py
    ```
 
-## 📂 Archivos importantes
+## 📂 Important Files
 
-- `start_log.json`: Registro de usuarios que han ejecutado el comando `/start`.
-- `message_log.json`: Registro de mensajes enviados y reenviados por el bot.
+- `start_log.json`: Log of users who have executed the `/start` command.
+- `message_log.json`: Log of messages sent and forwarded by the bot.
 
 ---
 
-¡Disfruta automatizando tus chats con este bot de Telegram! 😎
+Enjoy automating your chats with this Telegram bot! 😎
