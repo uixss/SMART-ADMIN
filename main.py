@@ -4,10 +4,10 @@ import time
 import threading
 from datetime import datetime
 
-TOKEN = "7255534026:AAHKeYg1eLBgSXrXipLTudvpC8F6OudKeSA"
+TOKEN = ""
 
-GROUP_CHAT_ID = "-1002065237818" 
-ADMIN_ID = "7139918953"  
+GROUP_CHAT_ID = "" 
+ADMIN_ID = ""  
 
 AUTO_DELETE_DELAY = 5  
 
