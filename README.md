@@ -1,5 +1,5 @@
 
-# 🤖 Telegram Bot with Auto-Response and Message Management
+# 🤖 SMART-ADMIN
 
 This project is a Telegram bot designed to automate message management in groups or individual chats. It comes with special features that make it useful for administrators and moderators.
 
