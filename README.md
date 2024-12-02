@@ -5,6 +5,7 @@
 This project is a Telegram bot designed to automate message management in groups or individual chats. It comes with special features that make it useful for administrators and moderators.
  
  <img src="./gui.png" alt="ig">
+ 
 ---
 
 ## 🖥️ **New GUI Features**
