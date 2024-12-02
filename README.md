@@ -11,10 +11,13 @@ This project is a Telegram bot designed to automate message management in groups
 ### ✨ **Modern Interface Enhancements**
 - 🔧 **Token Configuration**:  
    Easily set up your bot's **`TOKEN`**, **`GROUP_CHAT_ID`**, and **`ADMIN_ID`** directly through the graphical interface.
+  
 - ▶️ **Start/Stop Control**:  
    Intuitive buttons to **start** and **stop** the bot without manual interruptions.
+  
 - 📡 **Real-Time Logs**:  
    Monitor bot activities such as sent messages, forwarded messages, and errors in a **dedicated console** within the GUI.
+  
 - ⚙️ **Customizable Settings**:  
    Adjust parameters like **auto-deletion time** and manage configurations through the GUI.
 
@@ -36,7 +39,6 @@ graph TD;
 ---
 
  <img src="./gui.png" alt="ig">
-
 
 ## 🚀 Key Features
 
