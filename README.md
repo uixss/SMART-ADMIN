@@ -1,5 +1,16 @@
 # 🎫 Coding Services SEND DM 🎫
 
+---
+
+🖥️ New GUI Features
+
+    Token Configuration: Easily set up your bot's TOKEN, GROUP_CHAT_ID, and ADMIN_ID through the graphical interface.
+    Start/Stop Control: Use intuitive buttons to start and stop the bot without needing to interrupt the script manually.
+    Real-Time Logs: Monitor bot activities in a dedicated console window within the GUI.
+    Customizable Settings: Adjust message auto-deletion time and other parameters from the GUI.
+
+---
+
 # 🤖 SMART-ADMIN
 
 This project is a Telegram bot designed to automate message management in groups or individual chats. It comes with special features that make it useful for administrators and moderators.
