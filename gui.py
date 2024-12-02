@@ -6,7 +6,6 @@ import customtkinter as ctk
 from tkinter import scrolledtext
 from datetime import datetime
 
-# Variables globales
 TOKEN = ""
 GROUP_CHAT_ID = ""
 ADMIN_ID = ""
@@ -19,7 +18,7 @@ responding_to_user = False
 START_LOG_FILE = "start_log.json"
 MESSAGE_LOG_FILE = "message_log.json"
 
-# Funciones del bot
+
 def send_message(chat_id, text, should_auto_delete=True):
     url = BOT_URL + "sendMessage"
     payload = {'chat_id': chat_id, 'text': text}
